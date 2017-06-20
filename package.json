@@ -1,19 +1,17 @@
 {
-  "name": "owo-landing",
+  "name": "rem-landing",
   "version": "2.1.0",
-  "description": "Landing page for whats-th.is, hosted by GitHub Pages.",
+  "description": "Landing page for Rem bot.",
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "bourbon": "^4.3.2",
-    "bourbon-neat": "^1.8.0",
     "gulp": "^3.9.1",
     "gulp-pug": "^3.2.0",
     "gulp-sass": "^3.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whats-this/landing.git"
+    "url": "git+https://github.com/rem-bot-industries/landing.git"
   },
   "author": "Dean Sheather <dean@deansheather.com>",
   "license": "MIT",

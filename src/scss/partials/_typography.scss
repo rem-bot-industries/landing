@@ -1,0 +1,44 @@
+body {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:active, &:hover, &:visited { color: inherit; }
+}
+
+.page-content {
+  h1 {
+    margin: -20px 0 0 0;
+    font-weight: bold;
+    font-size: 130px;
+    letter-spacing: 40px;
+
+    @include media(sm) { font-size: 90px; }
+
+    > a { text-decoration: none; }
+  }
+
+  h2 {
+    margin: -20px 0 0 0;
+    padding: 10px 0 20px 0;
+    font-size: 52px;
+    line-height: 115%;
+
+    @include media(sm) { font-size: 42px; }
+  }
+
+  p {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+}

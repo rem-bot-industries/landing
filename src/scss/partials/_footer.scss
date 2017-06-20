@@ -1,0 +1,38 @@
+footer {
+  padding-bottom: 40px;
+
+  ul {
+    padding: 0;
+
+    li:not(:first-child) {
+      margin-left: 10px;
+
+      &:before {
+        padding-right: 10px;
+        content: "•";
+      }
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      @include media(sm) {
+        margin: 0 !important;
+        display: block;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      a {
+        font-size: 1.3rem;
+        text-decoration: none;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+        &:hover { text-decoration: underline; }
+      }
+    }
+  }
+}

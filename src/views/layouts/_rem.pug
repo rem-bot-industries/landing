@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Rem Bot for Discord
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700')
+    link(rel='stylesheet', href='/assets/css/styles.css')
+    //- link(rel='icon', type='image/png', href='/assets/img/favicon.png')
+
+  body
+    .background
+      img#js-bg(src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')
+
+    .image-cover.content-box
+      .page-content
+        block content
+      include ../partials/_footer.pug
+
+    script
+      include ../partials/_background.js
+
+    block scripts

@@ -23,17 +23,8 @@ body {
   display: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out 0s;
-  transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  -ms-transform: rotate(10deg);
-
   &.loaded {
     display: block;
     opacity: 1;
-    transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
   }
 }
